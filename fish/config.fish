@@ -13,3 +13,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 fzf_configure_bindings --directory=\ct 
 
+fish_add_path $HOME/.cargo/bin
+
