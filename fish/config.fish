@@ -55,3 +55,6 @@ $MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
 fish_add_path $HOME/.cargo/bin
 
 
+# Install plugins
+# 1. https://github.com/jorgebucaran/fisher 
+# 2. https://github.com/PatrickF1/fzf.fish
