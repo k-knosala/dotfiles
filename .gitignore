@@ -1,0 +1,5 @@
+tmux/plugins/tpm
+tmux/plugins/tmux-sensible
+tmux/plugins/tmux-yank
+tmux/plugins/tmux-gruvbox
+tmux/plugins/vim-tmux-navigator
