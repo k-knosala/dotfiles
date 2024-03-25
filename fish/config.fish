@@ -54,6 +54,10 @@ $MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
 # Cargo path
 fish_add_path $HOME/.cargo/bin
 
+# Gurobi
+fish_add_path /opt/gurobi1101/linux64/bin
+set -gx GUROBI_HOME /opt/gurobi1101/linux64
+set -a LD_LIBRARY_PATH /opt/gurobi1101/linux64/lib
 
 # Install plugins
 # 1. https://github.com/jorgebucaran/fisher 
